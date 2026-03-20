@@ -1,0 +1,31 @@
+{
+  "name": "1claw-agent-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "setup": "tsx scripts/setup.ts"
+  },
+  "dependencies": {
+    "@1claw/sdk": "^0.15.3",
+    "@ai-sdk/google": "^3.0.43",
+    "@ai-sdk/react": "^3.0.118",
+    "ai": "^6.0.116",
+    "next": "16.2.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "dotenv": "^17.3.1",
+    "tailwindcss": "^4",
+    "tsx": "^4.21.0",
+    "typescript": "^5"
+  }
+}
